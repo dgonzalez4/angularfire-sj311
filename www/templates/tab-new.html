@@ -1,0 +1,43 @@
+<ion-view view-title="New Request">
+  <ion-content>
+    
+  <div class="list card">
+    
+      <div class="item">
+        <div class="row">
+          <div class="col-25 frame">
+            <a ng-click="openPhotoView()" class="item">
+              <img ng-src="{{caseImage}}" alt="">
+            </a>
+          </div>
+
+          <div class="col-75">
+             <h2><div ng-repeat="address in addresses">
+        <select
+            ng-model="address.state"
+            ng-options="state.lookupCode as state.description for state in lov_state"></select></h2>
+            </a>
+            
+              <p class="item"><input type="text" ng-model="data.text"/>
+</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item-body">
+        <div id="map" data-tap-disabled="true"></div>
+      </div>
+<div class="button-bar">
+          <a class="button button-positive">Submit</a>
+        </div>
+    </div>
+    <p style="font-weight: bold;">Output/Report can be found <a id="firebaseRef" href="#" target="_blank">here</a></p>
+           <div ng-repeat="address in addresses">
+        <p>Email to: {{address.state}}</p>
+        <p>Description: {{ data.text }}</p>
+
+<div id="log"></div>
+    </div>   
+        </div>   
+
+  </ion-content>
+</ion-view>

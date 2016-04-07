@@ -1,0 +1,21 @@
+{
+  "contacts": [
+    {
+      "info": [
+        {
+          "phone": "408-277-8911",
+          "description": "Using 911 is the proper way to report an emergency. However, if you may use this number.",
+          "department": "Downtown Ice"
+        },{
+          "phone": "408-277-8900",
+          "description": "Using 311 is the proper way to report an emergency. However, if you may use this number.",
+          "department": "House Department Meeting"
+        },{
+          "phone": "408-794-7297",
+          "description": "he Animal Care Center serves the areas of Cupertino, Los Gatos, Milpitas, San José, and Saratoga.",
+          "department": "Downtown Ice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<ion-view view-title="City Contacts">
+
+<div class="bar bar-subheader 
+  item-input-inset bar-light">
+  <label class="item-input-wrapper">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="search" ng-model="query" placeholder="Search">
+  </label>
+</div>
+
+<ion-content class="has-subheader">
+<div class="citycontact" ng-repeat="(citycontactIndex, citycontact) in contacts">
+  <div class="item item-divider item-divider-calm">
+  </div><!-- item divider -->
+  <ion-list>
+    <ion-item class="item-text-wrap item-icon-right"
+    ng-repeat="item in citycontact.info | filter: query"
+    href="#">
+
+      <h2>{{item.phone}}</h2>
+      <h3>{{item.department}}</h3>
+      <p>{{item.description}}</p>
+
+    </ion-item>
+  </ion-list>
+</div><!-- repeat days -->
+</ion-content>
+</ion-view>

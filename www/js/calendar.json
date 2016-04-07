@@ -1,0 +1,18 @@
+{
+  "calendar": [
+    {
+      "weekday": "Monday",
+      "schedule": [
+        {
+          "time": "9:00am-5:00pm",
+          "description": "One of downtown’s most beloved winter traditions, Hawaiian Airlines Kristi Yamaguchi Downtown Ice, opens for an extended season of skating under the palms, starting 5 p.m. Friday, November 13 through Sunday, February 7. The City of San José is among the many proud sponsors of Downtown Ice.",
+          "title": "Downtown Ice"
+        },{
+          "time": "9:30am-10:30am",
+          "description": "The Housing Department has scheduled an additional series of meetings to provide the most up-to-date information on the Affordable Housing Impact Fee (AHIF) Program, and Inclusionary Housing Ordinance, during the months of January through June 2016. These meetings will include specific information on how developers may apply for the pipeline exemption.",
+          "title": "House Department Meeting"
+        }
+      ]
+    }
+  ]
+}
