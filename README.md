@@ -17,8 +17,10 @@ Clone this repository into your local machine using the terminal
 $ git clone https://github.com/dgonzalez4/angularfire-sj311.git
 ```
 
-To run the project, cd into angularfire-sj311 folder. Then -
-
+Open project folder.
+```
+$ cd angularfire-sj311.git
+```
 To run as web project
 ```
 $ ionic serve
