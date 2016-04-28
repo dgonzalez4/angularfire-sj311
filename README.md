@@ -1,6 +1,8 @@
 # angularfire-sj311
 
-SJ 311 is a civic non-emergency issue tracking and reporting application developed by the team at Open San Jose. SJ-311 is developed with Ionic both iOS and Android platforms.
+Sj311 is a civic non-emergency issue tracking and reporting application developed by the team at Open San Jose. SJ-311 is developed with Ionic both iOS and Android platforms.
+
+Data in sj311 Firebase database is stored as JSON and synchronized in realtime to every connected client [here](https://sj311app.firebaseio.com/).
 
 ## Instructions for installation
 
